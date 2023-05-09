@@ -5,5 +5,5 @@ Resources:
   WebServer:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-02396cdd13e9a1257
+      ImageId: ami-02xxxxx
       InstanceType: t2.micro
