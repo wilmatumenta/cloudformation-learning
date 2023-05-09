@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: AWS Template to create an EC2 instance
+
+Resources:
+  WebServer:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-02396cdd13e9a1257
+      InstanceType: t2.micro
